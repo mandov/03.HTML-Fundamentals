@@ -1,0 +1,14 @@
+﻿img {
+    width: 200px;
+    height: 130px;
+}
+
+#text {
+    font-size: 18px;
+    padding-top: -5px;
+}
+
+#header {
+    text-align: center;
+    font-size: 28px;
+}

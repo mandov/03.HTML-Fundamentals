@@ -1,0 +1,15 @@
+h1 {
+    vertical-align:text-bottom;
+}
+
+image {
+     vertical-align:text-bottom;
+}
+
+table {
+    border:solid;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}

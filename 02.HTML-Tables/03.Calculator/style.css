@@ -1,0 +1,27 @@
+﻿table {
+    border-collapse: collapse;
+    border: thin #00ffff;
+    height: 380px;
+    width: 295px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-family: Consolas;
+    color: aqua;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+td {
+    font-size: 30px;
+}
+
+#result {
+    text-align: right;
+    padding-right:15px;
+}

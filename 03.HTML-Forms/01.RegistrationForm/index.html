@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <table id="mainTable" border="1">
+            <colgroup><col style="width:80px" /><col /></colgroup>
+            <tr>
+                <td class="firstCol">
+                    <label for="lastName">Last Name</label>
+                </td>
+                <td class="secondCol">
+                    <input class="colorButton" type="text" id="lastName" size="36" />
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol">
+                    <label for="firstName">First Name</label>
+                </td>
+                <td class="secondCol">
+                    <input class="colorButton" type="text" id="firstName" size="36" />
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol"><label for="address">Address</label></td>
+                <td class="secondCol"><textarea rows="4" cols="37" class="colorButton" id="address"></textarea></td>
+            </tr>
+            <tr>
+                <td class="firstCol">
+                    <label for="city">City</label>
+                </td>
+                <td class="secondCol">
+                    <input class="colorButton" type="text" id="city" />
+                    <label for="state">State</label>
+                    <input class="colorButton" type="text" id="state" style="width:35px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol">
+                    <label for="postCode">Zip/Postal Code</label>
+                </td>
+                <td class="secondCol">
+                    <input class="colorButton" type="text" id="postCode" size="7" />
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol"><label for="country">Country</label></td>
+                <td class="secondCol">
+                    <select id="country" style="width:210px">
+                        <option selected="selected">Bulgaria</option>
+                        <option>Italy</option>
+                        <option>France</option>
+                        <option>Turkey</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol"><label for="phoneNum">Phone (country code, area code, number)</label></td>
+                <td class="secondCol">
+                    (+<input class="colorButton" type="text" style="width:50px" />)
+                    <input class="colorButton" type="text" style="width:50px" />-
+                    <input class="colorButton" type="text" style="width:130px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol"><label for="mail">E-mail</label></td>
+                <td class="secondCol"><input class="colorButton" id="mail" type="text" size="37" placeholder="example@email.com" /></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Birth date</td>
+                <td class="birth">Month <input class="birth" type="text" style="width:24px" /> Day <input class="birth" type="text" style="width:24px" /> Year (4 digit) <input class="birth" type="text" style="width:48px" /> </td>
+            </tr>
+            <tr>
+                <td class="firstCol"><label for="gender">Gender</label></td>
+                <td class="secondCol">
+                    <select>
+                        <option selected="selected">Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol">Starting date</td>
+                <td class="secondCol">
+                    <input class="colorButton" id="spring" type="radio" name="startingDate" />
+                    <label for="spring">Spring 2006</label>
+                    <input class="colorButton" id="summer" type="radio" name="startingDate" />
+                    <label for="summer">Summer 2006</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="firstCol">
+                    <label for="comments">Comments/Questions</label>
+                </td>
+                <td>
+                    <textarea rows="5" cols="37" class="colorButton" id="comments"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td id="resAndClear" colspan="2"><input class="subAndRes" type="submit" value="Submit" /><input class="subAndRes" type="reset" value="Clear This Form" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

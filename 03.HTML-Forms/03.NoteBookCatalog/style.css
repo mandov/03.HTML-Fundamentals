@@ -1,0 +1,19 @@
+#mainTable {
+    border-collapse: collapse;
+    border-radius: 50px;
+    border-right: 1pt solid black;
+    border-left: 1pt solid black;
+    border-bottom: 1pt solid black;
+    height: 200px;
+}
+
+th {
+    border-bottom: 1pt solid black;
+    border-top: 1pt solid black;
+    border-right: 1pt solid black;
+    border-left: 1pt solid black;
+}
+
+td.noBorder {
+    border: none;
+}

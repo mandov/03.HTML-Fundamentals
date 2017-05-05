@@ -1,0 +1,60 @@
+﻿#mainTable {
+    width: 495px;
+    height: 560px;
+    border-collapse: collapse;
+}
+
+#resAndClear {
+    text-align: center;
+    background-color: #b8f6f6;
+}
+
+.firstCol {
+    text-align: right;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 19px;
+    padding-right: 0.4em;
+}
+
+.colorButton {
+    border-top-color: black;
+    border-left-color: black;
+}
+
+#address {
+    border-top-color: black;
+    border-left-color: black;
+}
+
+select {
+    border-top-color: black;
+    border-left-color: black;
+}
+
+input.subAndRes {
+    border-bottom-color: black;
+    border-right-color: black;
+}
+
+.birth {
+    font-family:Arial;
+    font-size: 15px;
+    border-top-color: black;
+    border-left-color: black;
+    padding-left:0.4em;   
+}
+
+.secondCol {
+    padding-left:0.4em;
+}
+
+select {
+    color: black;
+    -webkit-appearance: none;
+    background: url(https://i.stack.imgur.com/N04pF.png) no-repeat right ;
+}
+
+textarea {
+    resize:none; 
+}
